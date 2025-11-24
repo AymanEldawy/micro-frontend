@@ -8,7 +8,8 @@ const productDomain = process.env.PRODUCT_DOMAIN || 'https://actual-domain.com';
 const productionsConfig = {
   mode: 'production',
   output: {
-    filename: `[name].[contenthash].js` // explain 
+    filename: `[name].[contenthash].js`,
+    publicPath: '/container/latest/',
   },
   plugins: [
     new ModuleFederationPlugin({
