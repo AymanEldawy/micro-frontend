@@ -45,7 +45,7 @@ export default function App() {
             Featured Products 
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Discover our hand-picked selection of premium products designed for modern living.
+            Discover our hand-picked selection of premium products for modern living.
           </p>
         </div>
 
